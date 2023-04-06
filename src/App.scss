@@ -38,9 +38,19 @@ body{
   .carousel-inner{
     .carousel-item{
       .hogarth_CoverImage{
-        max-height: 500px;
+        
         width: 100%;
         opacity: 0.4;
+        @media screen and (max-width: 767px){
+          max-height: 260px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1180px) and (orientation: portrait){
+          max-height: 500px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1180px) and (orientation: landscape){
+          max-height: 500px;
+        }
+        
       }
       .hogarth_welcomeContent{
         position: absolute;
@@ -69,6 +79,13 @@ body{
               @media screen and (max-width: 767px){
                 font-size: 0.7rem;
               }
+              @media screen and (min-width: 768px) and (max-width: 1180px) and (orientation: portrait){
+                font-size: 1.8rem;
+              }
+              @media screen and (min-width: 768px) and (max-width: 1180px) and (orientation: landscape){
+                font-size: 1.8rem;
+              }
+              
             }
             
           }
@@ -95,6 +112,7 @@ body{
                 width: 100%;
                 font-size: 10px;
               }
+              
       
             }
             .hogarth_ReadButton:hover{
@@ -105,6 +123,9 @@ body{
               font-style: normal;
             }
             @media screen and (max-width: 767px){
+              width: 20%;
+            }
+            @media screen and (max-width: 1024px){
               width: 20%;
             }
           }
