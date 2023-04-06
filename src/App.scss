@@ -7,6 +7,7 @@ body{
   width: 100%;
   z-index: 99999;
   top: 0;
+  height: 65px;
   .hogarth_nav_container{
     width: 100%;
     max-width: 100%;
@@ -55,7 +56,7 @@ body{
   .carousel-inner{
     .carousel-item{
       .hogarth_CoverImage{
-        
+        height: 500px;
         width: 100%;
         opacity: 0.4;
         @media screen and (max-width: 767px){
