@@ -24,7 +24,24 @@ body{
         font-size: 16px;
         font-weight: 600;
         color: #ffffff;
-        padding : 10px 0px
+        padding : 10px 0px;
+        @media screen and (max-width: 767px){
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1180px) and (orientation: portrait){
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        
+        }
+        // @media screen and (min-width: 768px) and (max-width: 1180px) and (orientation: landscape){
+        //   width: 100%;
+        //   display: flex;
+        //   justify-content: center;
+        
+        // }
       }
     }
   }
@@ -254,6 +271,15 @@ body{
 
 .breadcrumb-item+.breadcrumb-item::before{
   padding: 0px 15px;
+  @media screen and (max-width: 767px){
+    display: none;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1180px) and (orientation: portrait){
+   display: none;
+  }
+  // @media screen and (min-width: 768px) and (max-width: 1180px) and (orientation: landscape){
+  //   display: none;
+  // }
 }
 
 
