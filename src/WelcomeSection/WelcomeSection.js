@@ -21,7 +21,7 @@ const WelcomeSection = () => {
                             </div>
                         </div>
                         <div className="hogarth_ReadMore_Button">
-                            <a href="https://www.hogarth.com/"><button className="hogarth_ReadButton">{READMORE}</button></a>
+                            <button className="hogarth_ReadButton">{READMORE}</button>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const WelcomeSection = () => {
                             </div>
                         </div>
                         <div className="hogarth_ReadMore_Button">
-                            <a href="https://www.hogarth.com/"><button className="hogarth_ReadButton">{READMORE}</button></a>
+                            <button className="hogarth_ReadButton">{READMORE}</button>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const WelcomeSection = () => {
                             </div>
                         </div>
                         <div className="hogarth_ReadMore_Button">
-                            <a href="https://www.hogarth.com/"><button className="hogarth_ReadButton">{READMORE}</button></a>
+                            <button className="hogarth_ReadButton">{READMORE}</button>
                         </div>
                     </div>
                 </div>
